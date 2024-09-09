@@ -63,3 +63,10 @@ a {
   margin: 10px;
   width: 100px;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 102, 45);
+  padding: 20px;
+}
