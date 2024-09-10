@@ -6,12 +6,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: cadetblue;
+  background-color: rgb(82, 125, 126);
 }
 .upper-body {
   background-color: blueviolet;
   margin: 0;
-  margin: 0%;
   width: 100%;
 }
 .logo {
@@ -42,6 +41,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: left;
+  margin: 50px;
 }
 .intro-img {
   flex: 1;
@@ -69,4 +69,8 @@ a {
   align-items: center;
   background-color: rgb(40, 102, 45);
   padding: 20px;
+}
+#main-img {
+  height: auto;
+  width: 500px;
 }
