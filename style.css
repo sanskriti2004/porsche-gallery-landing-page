@@ -43,3 +43,29 @@
   background-color: darkcyan;
   width: 120px;
 }
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 18px;
+  background-color: cornflowerblue;
+}
+
+.cards {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.cards-img {
+  height: auto;
+  width: 300px;
+}
