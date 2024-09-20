@@ -1,10 +1,13 @@
 * {
   margin: 0;
+  background-color: #181c14;
+  color: rgb(123, 123, 123);
+  font-family: prompt;
 }
 .nav {
   display: flex;
   align-items: center;
-  background-color: dimgray;
+  background-color: rgb(20, 15, 15);
   padding: 20px;
   justify-content: center;
 }
@@ -24,7 +27,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 30px;
-  background-color: blanchedalmond;
+  background-color: rgb(27, 25, 21);
 }
 .hero-text {
   flex-grow: 1;
@@ -41,7 +44,7 @@
   padding: 10px 20px;
   border-radius: 10px;
   border: 0;
-  background-color: darkcyan;
+  background-color: rgb(19, 23, 23);
   width: 120px;
 }
 .gallery {
@@ -52,7 +55,7 @@
   flex-wrap: wrap;
   width: 100%;
   padding-top: 18px;
-  background-color: cornflowerblue;
+  background-color: rgb(16, 20, 27);
 }
 
 .cards {
@@ -78,7 +81,7 @@
   flex-wrap: wrap;
   width: 100%;
   padding-top: 18px;
-  background-color: darkcyan;
+  background-color: rgb(8, 12, 31);
 }
 .card {
   flex: 1;
@@ -103,7 +106,7 @@
   flex-direction: row;
   padding: 30px 120px;
   margin: 20px;
-  background-color: rgb(212, 129, 156);
+  background-color: rgb(22, 18, 19);
   max-width: 900px;
 }
 
@@ -116,5 +119,5 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: darkcyan;
+  background-color: rgb(33, 33, 33);
 }
