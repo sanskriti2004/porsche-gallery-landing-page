@@ -123,3 +123,7 @@
   padding: 20px;
   background-color: rgb(33, 33, 33);
 }
+@media screen and (max-width: 425px) {
+  .nav {
+  }
+}
