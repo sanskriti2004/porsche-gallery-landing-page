@@ -50,9 +50,8 @@ a {
   height: auto;
 }
 
-.hero-btn,
+#hero-btn,
 #sign-up {
-  border-radius: 10px;
   border: 0;
   background-color: rgb(87, 202, 202);
 }
@@ -73,7 +72,7 @@ a {
   }
   .nav-links {
     font-size: 13px;
-    gap: 5px;
+    gap: 6px;
   }
   .hero {
     display: flex;
@@ -93,12 +92,37 @@ a {
   .hero-btn {
     font-size: 15px;
     margin: auto;
+    padding: 3px 10px;
+    border-radius: 20px;
   }
   .hero-img {
-    max-width: 290px;
-    margin-top: 10px;
+    max-width: 250px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
   }
   .cards-img {
-    width: 200px;
+    max-width: 300px;
+  }
+  .cards p {
+    margin-top: 3px;
   }
 }
