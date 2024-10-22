@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Ensure padding and borders are included in width calculations */
-  background-color: #181c14;
-  color: rgb(123, 123, 123);
   font-family: prompt;
 }
 
@@ -15,10 +13,18 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  background-color: rgb(20, 15, 15);
+  background-color: black;
   justify-content: center;
+  color: white;
+  text-decoration: none;
 }
-
+.nav-links {
+  transition: color 0.3s ease-in-out;
+  color: rgb(77, 0, 93);
+}
+.nav-links :hover {
+  color: white;
+}
 .nav img {
   height: auto;
   border-radius: 30px;
@@ -37,13 +43,18 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(27, 25, 21);
+  background-color: rgb(11, 6, 12);
+  color: rgb(161, 161, 161);
 }
-
+.hero-btn {
+  background-color: rgb(255, 255, 255);
+}
 .hero-text {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+
+  font-weight: 400;
 }
 
 .hero-img {
@@ -53,7 +64,6 @@ a {
 #hero-btn,
 #sign-up {
   border: 0;
-  background-color: rgb(87, 202, 202);
 }
 
 .gallery {
@@ -61,6 +71,28 @@ a {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  background-color: rgb(13, 12, 19);
+  color: rgb(100, 100, 100);
+}
+.testimonials {
+  background-color: rgb(11, 8, 24);
+  color: white;
+}
+.card {
+  background-color: rgb(25, 10, 33);
+  font-weight: 398;
+}
+.signup {
+  background-color: rgb(11, 6, 12);
+  color: white;
+}
+.signup h6 {
+  color: rgb(145, 145, 145);
+  font-weight: 400;
+}
+.footer {
+  background-color: rgb(35, 35, 35);
+  color: white;
 }
 @media screen and (max-width: 426px) {
   .nav {
@@ -79,15 +111,16 @@ a {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 8px;
   }
   .hero-text h1 {
     font-size: 26px;
-    margin: 5px;
+    margin: 15px;
   }
   .hero-text p {
     font-size: 15px;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .hero-btn {
     font-size: 15px;
@@ -97,8 +130,8 @@ a {
   }
   .hero-img {
     max-width: 250px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
 
   .gallery {
@@ -119,10 +152,68 @@ a {
     padding: 10px;
     margin-bottom: 15px;
   }
+  #img1 {
+    margin-top: 15px;
+  }
   .cards-img {
     max-width: 300px;
   }
   .cards p {
     margin-top: 3px;
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  .signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .inner-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-text h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .signup-text h6 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .signup-btn {
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    font-size: 10px;
   }
 }
