@@ -21,6 +21,7 @@ body {
 .nav-links {
   transition: color 0.3s ease-in-out;
   color: rgb(77, 0, 93);
+  cursor: pointer;
 }
 .nav-links :hover {
   color: white;
@@ -62,8 +63,16 @@ a {
 }
 
 #hero-btn,
-#sign-up {
+.signup-btn {
   border: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+#hero-btn:hover {
+  background-color: rgb(135, 135, 135);
+}
+.signup-btn:hover {
+  background-color: rgb(88, 88, 88);
 }
 
 .gallery {
